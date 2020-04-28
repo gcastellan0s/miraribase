@@ -37,7 +37,7 @@ Integrations
 
 *These features can be enabled during initial project setup.*
 
-* Serve static files from Amazon S3, Google Cloud Storage or Whitenoise_
+* Serve static files from Amazon S3
 * Configuration for Celery_ and Flower_ (the latter in Docker setup only)
 * Integration with Sentry_ for error logging
 
