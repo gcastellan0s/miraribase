@@ -57,7 +57,7 @@ Integrations
 Prerequisites
 -------------
 
-* NODEJS; if you don't have it yet, follow the `installation node instructions`_;
+* NODE.JS; if you don't have it yet, follow the `installation node instructions`_;
 * Docker; if you don't have it yet, follow the `installation instructions`_;
 * Docker Compose; refer to the official documentation for the `installation guide`_.
 
