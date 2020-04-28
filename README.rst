@@ -57,9 +57,12 @@ Integrations
 Prerequisites
 -------------
 
+* NODEJS; if you don't have it yet, follow the `installation node instructions`_;
 * Docker; if you don't have it yet, follow the `installation instructions`_;
 * Docker Compose; refer to the official documentation for the `installation guide`_.
 
+
+.. _`installation node instructions`: https://nodejs.org
 .. _`installation instructions`: https://docs.docker.com/install/#supported-platforms
 .. _`installation guide`: https://docs.docker.com/compose/install/
 
@@ -105,8 +108,9 @@ Execute Management Commands
 
 As with any shell command that we wish to run in our container, this is done using the ``docker-compose -f local.yml run --rm`` command: ::
 
-    $ docker-compose -f local.yml run --rm django python manage.py migrate
-    $ docker-compose -f local.yml run --rm django python manage.py createsuperuser
+    $ docker-compose -f local.yml run --rm backend python manage.py migrate
+    $ docker-compose -f local.yml run --rm backend python manage.py createsuperuser
+    $ docker-compose -f local.yml run --rm frontend npm install
 
 Here, ``django`` is the target service we are executing the commands against.
 
