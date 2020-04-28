@@ -1,0 +1,39 @@
+{
+    "files.exclude": {
+
+        ".vscode": true,
+
+        "**/*.pyc": true,
+        "**/__main__.py": true,
+        "*.DS_Store": true,
+        "*.Python": true,
+        "**/__pycache__": true,
+        "**/__init__.py": true,
+        "**/celerybeat.pid": true,
+
+        ".envs": true,
+        ".resp": true,
+        ".dockerignore": true,
+        ".gitignore": true,
+        "compose/": true,
+        "production.yml": true,
+        "local.yml": true,
+        "merge_production_dotenvs_in_dotenv.py": true,
+
+        "frontend/package-lock.json": true,
+        "frontend/node_modules": true,
+        "frontend/.eslintignore": true,
+        "frontend/.eslintrc.js": true,
+        "frontend/postcss.config.js": true,
+        "frontend/webpack-rtl.config.js": true,
+        "frontend/babel.config.js": true,
+
+        "backend/.ipython": true,
+
+        "nginx": true,
+    },
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/usr/bin/python"
+}
